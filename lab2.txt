@@ -1,0 +1,2 @@
+db.empDetails.aggregate([{$group : {_id : "$exp", count : {$sum :1}}}])
+
